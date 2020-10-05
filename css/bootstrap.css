@@ -14,20 +14,69 @@ h1 {
   text-align: center;
   font-size: 16px;
 }
+.Female {
+  float: right;
+  justify-content: center;
+  border: 6px solid purple;
+  font-size: 20px;
+  font-style: italic;
+}
+.Male {
+  float: left;
+  justify-content: center;
+  border: 6px solid purple;
+  font-size: 20px;
+  font-style: italic;
+}
+.body {
+  background-color: rgb(221, 222, 210 );
+  margin: auto;
+  border: 10px solid purple;
+  font-size: 10px;
+}
+.paragraph1{
+  
+  border: 6px
+  font-size: 20px;
+  padding: 8px;
+
+}
+.form {
+  border: 10px solid purple;
+  max-width: 700px;
+  margin: auto;
+
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imput [type =submit]{
+  padding: 5px;
+  font-size: 20px;
+  width: 100px;
+
+  
+}
+.paragraph2 {
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
 p {
   
   font-size: 15px;
-  float: center
   
 }
 h2 {
   
   font-size: 16px;
-  float: center
-  
+  text-align: center;  
 }
 body {
-  margin: 0;
+  margin: auto;
   background-color:
 }
 form {
