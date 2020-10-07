@@ -17,32 +17,34 @@ h1 {
 .Female {
   float: right;
   justify-content: center;
-  border: 6px solid purple;
+  border: 6px solid grey;
   font-size: 20px;
   font-style: italic;
 }
 .Male {
   float: left;
   justify-content: center;
-  border: 6px solid purple;
+  border: 6px solid grey;
   font-size: 20px;
   font-style: italic;
 }
 .body {
-  background-color: rgb(221, 222, 210 );
+  background-color: rgb(166, 243, 139 );
   margin: auto;
-  border: 10px solid purple;
+  border: 10px solid grey;
   font-size: 10px;
-}
+ } 
 .paragraph1{
   
   border: 6px
   font-size: 20px;
   padding: 8px;
+  font-style: italic;
+  
 
 }
 .form {
-  border: 7px solid purple;
+  border: 7px solid grey;
   max-width: 500px;
   margin: auto;
 
@@ -52,7 +54,7 @@ h1 {
   justify-content: center;
 }
 .imput [type =submit]{
-  padding: 5px;
+  padding: 2px;
   font-size: 20px;
   width: 100px;
 
@@ -63,12 +65,15 @@ h1 {
   font-style: italic;
   font-family: sans-serif;
   font-size: 20px;
+  
 
 }
 p {
   
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
+  border:2px solid red;
+
 
   
 }
@@ -90,8 +95,8 @@ form {
   text-align: center;
   padding: 8px
   background-size:18px;
-  float: center
-  
+  float: center;
+}
 
 
 
