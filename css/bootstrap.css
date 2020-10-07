@@ -42,11 +42,11 @@ h1 {
 
 }
 .form {
-  border: 10px solid purple;
-  max-width: 700px;
+  border: 7px solid purple;
+  max-width: 500px;
   margin: auto;
 
-  height: 50vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +67,9 @@ h1 {
 }
 p {
   
-  font-size: 15px;
+  font-size: 18px;
+  font-style: italic;
+
   
 }
 h2 {
