@@ -5,6 +5,12 @@ function myFunction() {
   var gender = document.querySelector('input[name="gender"]:checked').value;
   var myDate = new Date(myStringDate);
   var dayOfWeek = myDate.getDay();
-  document.getElementById("message").innerHTML = "Your Akan name is " + maleAkanNames[dayOfWeek] + "!";
-  document.getElementById("message").innerHTML = "Your Akan name is " + femaleAkanNames[dayOfWeek] + "!";
+  if (gender=="male") {
+  	alert("Your Male Akan name is " + maleAkanNames[dayOfWeek] + "!");  return false;
+  } if (gender=="Female") {
+  	alert("Your Female Akan name is " + femaleAkanNames[dayOfWeek] + "!"); return false;
+  } else {
+    alert("You entered an invalid day or month, please try again");
+ }
 }
+  
