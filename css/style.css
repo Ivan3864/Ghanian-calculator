@@ -1,5 +1,6 @@
 body {
-	background-image: url(img/background.jpg);
+	background-image: url(img/Instagram.jpg);
+	background-repeat: round;
 }
 h1 {
 	font-family: 'Concert One', cursive;
