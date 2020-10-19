@@ -1,0 +1,47 @@
+body {
+	background-image: url(img/background.jpg);
+}
+h1 {
+	font-family: 'Concert One', cursive;
+	color: #FAFAFA;
+	font-size: 50px;
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.60);
+	height: inherit;
+	border-radius: 20px;
+}
+p {
+	color: #FAFAFA;
+	text-align: center;
+	height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 20px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+h2 {
+	font-family: 'Concert One', cursive;
+	color: #FAFAFA;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.60);
+	height: inherit;
+	border-radius: 20px;
+}
+.col-md-8 {
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.65);
+	height: inherit;
+	border-radius: 20px;
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	color: rgb(214, 177, 90);
+}
+h4 {
+	font-size: 25px;
+	color: #FAFAFA
+}
