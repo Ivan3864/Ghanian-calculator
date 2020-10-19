@@ -7,7 +7,7 @@ This is a web application that takes a user's birthday and calculates the day of
 
 
 # Installation Instructions
-Git https clone link: 
+Git https clone link: https://github.com/Ivan3864/Ghanian-calculator.git
 
 # Configuration
 The  website can be opened with any browser but **Google Chrome** is the best browser.
@@ -21,7 +21,7 @@ The application has the:
 To put the application to work you fill the forms and get your akan name.
 
 # Troubleshooting
-If having issues when accessing this website click s
+If having issues when accessing this website click https://ivan3864.github.io/Ghanian-calculator/
 
 # License
 Licensed under the  [MIT license](LICENSE).
