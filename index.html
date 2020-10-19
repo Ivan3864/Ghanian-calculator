@@ -1,47 +1,45 @@
-  <!DOCTYPE html>
-  <html lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
   <head>
-  	<meta charset="utf-8">
-  	 <meta name="viewport" content="width=device-with, initial-scale=1.o">
-  	   <title>Ghanian calculator</title>
-  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.o">
+    <title>Ghanian calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Philosopher&display=swap" rel="stylesheet">
   </head>
-  <body class="body">
-     <div class="container">
-  	 <div class="jumbotron">
-      <h1>The Amaizing Ghanian Name Predictor!</h1>
+
+  <body>
+  <div class="container">
+        <h1>The Amaizing Ghanian Name Predictor!</h1>
+        <p><strong>
+         Ghana is an amaizing country with diverse culture for example the Akan people frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</strong></p>
+
+      <h2>So, would you like to know your Akan Name?</h2>
+      <div class="row">
+        <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h4>Enter your birthday</b> (then hit the &quot;Submit&quot; button):</h4>
+
+        <form>
+          <script type="text/javascript" src="js/script.js"></script>
+          <input type="date" name="dateProvided" id="dateProvided" placeholder="mm/dd/yyyy">
+          <br>
+          <br>
+          <input type="radio" name="gender" id="female" value="Female">
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="male" value="male" >
+          <label for="male">Male</label>
+          <br>
+          <br>
+          <button onclick="myFunction(); return false;" class="btn btn-danger">
+            Submit!
+          </button>
+        </form>
+        </div>
+        <div class="col-md-2"></div>
       </div>
-          <div class="paragraph1">
-              <p>Let me tell you alittle bit about <strong> Ghana.</strong>
-               The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>
-  	    </div>          
-  	<h2>So, would you like to know your Akan Name?</h2>
-  	
-  <div class="paragraph2">
-  <p>Enter your birthday</b> (then hit the &quot;Submit&quot; button):</p></div>
-
-    <div class="form">
-  <form>
-      <script type="text/javascript" src="js/script.js"></script>
-    <input type="text" name="dateProvided" id="dateProvided" placeholder="mm/dd/yyyy" size="7">
-    <br>
-    <br>
-    <input type="radio" name="gender" id="female" value="Female" size="15">
-    <label for="female">Female</label>
-    <input type="radio" name="gender" id="male" value="male" size="15">
-    <label for="male">male</label>
-    <br>
-    <br>
-    <button onclick="myFunction(); return false;">
-      Submit!
-    </button>
-    <br>
-    <br>
-    <p id="message">
-    </p>
-
-  </form>
-
-    </div>
-   </body>
-  </html>
+   </div>
+  </body>
+</html>
